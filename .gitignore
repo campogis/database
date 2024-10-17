@@ -1,3 +1,6 @@
+# Data folders
+data
+
 # History files
 .Rhistory
 .Rapp.history
@@ -12,8 +15,9 @@
 # Example code in package build process
 *-Ex.R
 
-# Output files from R CMD build
+# Output files from R CMD build and other compressed files
 /*.tar.gz
+/*.zip
 
 # Output files from R CMD check
 /*.Rcheck/
