@@ -35,13 +35,12 @@ if (node == "LAPTOP-HQ6304DA" && user == "yanis"){ #YS old compu
 } else if (node == "FB08NB-U021681" && user == "JLU-SU"){ #YS new compu
   
   #set working directory (github)
-  working_dir = "C:/Users/JLU-SU/Documents/GitHub/campoGISTables/R"
+  working_dir = code_dir
   cat("working dir:", working_dir,'\n')
   
   #set directories
-  #input_dir <- 'G:/Shared drives/ProyectosClientes/QuintoMundo/MVP/MVP_datos/Soundscape' #samplings
-  input_dir <- 'G:/Shared drives/ProyectosClientes/QuintoMundo/MVP/MVP_tablasfinales/' #indices
-  output_dir <- 'G:/Shared drives/ProyectosClientes/QuintoMundo/MVP/MVP_tablasfinales/database' 
+  data_dir <- 'C:/Users/JLU-SU/Documents/GitHub/campoGIS/campoGisDatabase/data' # github
+  #data_dir <- 'G:/Shared drives/Proyectos clientes/QuintoMundo/MVP/MVP_tablasfinales' # new drive (campoGIS)
   
   
   cat("input_dir:", input_dir,'\n')
